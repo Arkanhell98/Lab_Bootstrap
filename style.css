@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: #273F4F;
+}
+
+nav a img{
+    width: 70%;
+}
+
+.nav-item a{
+    padding: 15px;
+    font-family: "Special Gothic Expanded One";
+    font-size: 25px;
+    color: #EFEEEA;
+}
