@@ -2,17 +2,122 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: #000000;
+}
 nav{
-    background-color: #273F4F;
+    background-color: #1DCD9F;
 }
 
 nav a img{
-    width: 70%;
+    width: 100%;
+}
+.navbar-brand{
+    max-width: 200px;
+}
+.navbar-toggler{
+    background-color: #1DCD9F;
+    border-radius: 0;
+    border:0;
 }
 
 .nav-item a{
     padding: 15px;
     font-family: "Special Gothic Expanded One";
     font-size: 25px;
-    color: #EFEEEA;
+    color:#222222;
+}
+.nav-link.active {
+    color: #ffffff !important;
+}
+.navbar .form-control{
+    border-radius: 0;
+}
+.navbar .btn{
+    background-color: #222222;
+    color:#1DCD9F;
+    border-radius:0;
+    border: 0;
+}
+.navbar-nav{
+    margin: 0 auto;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    margin: 20px;
+    font-size: 50px;
+    font-family: "Special Gothic Expanded One";
+    color: #1DCD9F;
+}
+main.row {
+    padding: 2rem;
+    gap: 1.5rem;
+}
+.card{
+    width:550px;
+   justify-content: center;
+    border-radius: 0;
+    background-color:#169976 ;
+    color:#000000
+}
+.card-img-top{
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0;
+}
+.card-body{
+    justify-content: center;
+}
+.card-title{
+    font-family: montserrat;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+.card-text{
+    font-family: montserrat;
+    font-size: 20px;
+}
+.card .btn {
+    display: block;
+    margin: 0 50px;
+    background-color: #222222;
+    border: 0;
+    border-radius: 0;
+}
+
+#email h2{
+    text-align: center;
+    margin: 20px;
+    font-size: 30px;
+    font-family: "Special Gothic Expanded One";
+    color: #1DCD9F;
+}
+#email .form-control{
+    max-width:700px;
+    margin:0 30px;
+    font-family: montserrat;
+    border: 0; border-radius:0 ;
+}
+#email .btn{
+    display: block;
+    max-width:600px;
+    margin:30px;
+    color: #222222;
+    background-color: #1DCD9F;
+    border-radius: 0;
+    border: 0;
+    font-family: "special gothic expanded one";
+}
+footer{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100px;
+  background-color: #1DCD9F;
+  font-family: "special gothic expanded one";
 }
