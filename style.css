@@ -83,11 +83,41 @@ main.row {
 }
 .card .btn {
     display: block;
-    margin: 0 50px;
+    margin: 0 50px 5px;
     background-color: #222222;
     border: 0;
     border-radius: 0;
 }
+
+.modal-content{
+    background-color: #222222;
+    border-radius: 0;
+    border: 0;
+}
+
+.modal-body{
+    background-color: #1DCD9F;
+    border: 0;
+    color: #222222;
+    font-family: montserrat;
+}
+.modal-header{
+    color: #1DCD9F;
+}
+
+.modal-footer .btn-primary{
+    background-color: #1DCD9F;
+    color:#222222;
+    border: 0;
+    border-radius: 0;
+}
+.btn-secondary{
+    background-color: #222222;
+    color:#169976;
+    border-color: #169976;
+    border-radius: 0;
+}
+
 
 #email h2{
     text-align: center;
